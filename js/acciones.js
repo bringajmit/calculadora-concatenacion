@@ -5,8 +5,8 @@
 const sumar = () => {
   //  valor1=parseFloat(document.getElementById("valor1").value);
     //valor2=parseFloat(document.getElementById("valor2").value);
-    var valor1=parseFloat(document.getElementById("valor1"));
-    var valor2=parseFloat(document.getElementById("valor2"));
+    var valor1=parseFloat(document.getElementById(valor1).value);
+    var valor2=parseFloat(document.getElementById(valor2));
     total=valor1+valor2;
     console.log(total);
     document.getElementById("resultado").value=parseFloat(total);
