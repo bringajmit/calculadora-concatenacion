@@ -18,3 +18,4 @@ const ConcatenarNombre=()=>{
     var apellido=document.getElementById("apellido").value;
     mostrar=`Hola ${nombre} ${apellido}`;
     document.getElementById("visor").value=mostrar;
+}
